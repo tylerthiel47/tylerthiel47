@@ -2,25 +2,26 @@ tylerthiel/README.md
 
 # Tyler Thiel
 
-M.S. Business Analytics candidate at Wake Forest (May 2026), B.A. from Furman. I like the parts of analytics that most people skip past to get to the model — figuring out what question actually matters, cleaning up data that's lying to you, checking whether the output would survive someone asking "why" three times in a row.
+M.S. Business Analytics graduate at Wake Forest (May 2026), B.A. from Furman University '25. I like the parts of analytics that most people skip past to get to the model — figuring out what question actually matters. From there, a foundational framework, and then it's on to: cleaning up data, checking whether the output would survive someone asking "why" three times in a row, and highlighting the numbers that the model or test outputted.
 
 Most of what's below is coursework and side projects. The tennis work is real but the underlying data belongs to the program, so I've described it without the code.
 
-Python, R, SQL, Power BI, Tableau, Excel, Alteryx, Git
+Python, R, SQL, Power BI, Tableau, Excel, Alteryx, Git, Supabase, Streamlit
 
 ## Background
 
 - M.S. Business Analytics, Wake Forest University School of Business — May 2026
 - B.A. Business Administration (Finance & International Business), minor in Business Analytics, Furman University — May 2025
-- Graduate Consultant, Wake Forest Men's Tennis, Oct 2025–present. Built a metric the coaching staff uses to gauge how players perform under pressure, using four seasons of match data plus their own qualitative notes from practice and film sessions.
+- Data Consultant, Texas Rattlers, July 2026-current. Building a maintaining a model that helps match bulls to the optimal riders according to various metrics as directed by coaching staff. Established a pipeline from our data source through Supabase into a proprietary dashboard in Streamlit.
+- Graduate Consultant, Wake Forest Men's Tennis, Oct 2025–May 2026. Built a metric the coaching staff uses to gauge how players perform under pressure, using four seasons of match data plus their own qualitative notes from practice and film sessions.
 - Ticket Sales Intern, Greenville Swamp Rabbits, 2023–2024. Mostly cold outreach and season-ticket sales, but the promotions I helped run correlated with a big jump in attendance that year.
-- Bloomberg Market Concepts, Alteryx Foundation certs
+- Bloomberg Market Concepts, Alteryx Foundation certifications
 
 ## How I work
 
 I try to write down the actual decision a project is supposed to inform before I touch any data — otherwise it's easy to end up with a model that's technically fine and answers nothing anyone asked. The fraud detection project below is a good example of this going sideways at first: I had a decent-looking classifier that was basically useless because I hadn't thought hard enough about what a false negative actually costs versus a false positive.
 
-I also use Claude a fair amount, mostly for scaffolding SQL or debugging something at 1am, but I try to be the one who decides the actual approach and checks the output makes sense before I trust it.
+I use Claude primarily, leveraging Claude Code, projects, and connectors to help power through the labor-intensive aspect of my work. 
 
 ## Selected work
 
