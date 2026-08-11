@@ -29,7 +29,7 @@ I use Claude primarily, leveraging Claude Code, projects, and connectors to help
 
 **sales-performance-dashboard** — Power BI dashboard that replaced a manual Excel report someone was rebuilding every week by hand. Star schema, a handful of DAX measures, drill-down from company-wide KPIs down to individual rep numbers. [repo](https://github.com/tylerthiel/sales-performance-dashboard)
 
-**ff3-factor-model** — Fama-French three-factor regression pipeline in Python. Pulls prices and Ken French's factor data, runs the regression, ranks multiple tickers against each other. Has a self-check step that flags multicollinearity and bad joins before it trusts its own output. [repo](https://github.com/tylerthiel/ff3-factor-model)
+**ff3-factor-model** — Fama-French three-factor regression pipeline in Python. Pulls prices and Ken French's factor data, runs the regression, ranks multiple tickers against each other. Has a self-check step that flags multicollinearity and bad joins before it trusts its own output. [repo](https://github.com/tylerthiel/ff3-Pipeline)
 
 **Resilience Index (Wake Forest Tennis, no public code)** — a stress-performance metric for the tennis team, combining match stats with coaching input. Used K-Means to split players into three rough archetypes (aggressive, rally-based, clutch) that the staff now uses to shape training.
 
